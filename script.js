@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const playBtn = document.getElementById('playAudioBtn');
     const statusText = document.getElementById('playerStatus');
 
-    const song = new Audio('Sway.mp3'); 
+    const song = new Audio('sway.mp3'); 
     let isPlaying = false;
 
     playBtn.addEventListener('click', () => {
